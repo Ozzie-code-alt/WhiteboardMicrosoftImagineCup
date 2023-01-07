@@ -5,7 +5,7 @@ a small push button switch and an LED, which is much cheaper than the cost of an
 # Hardware dependencies :
 
 - Webcam (internal laptop webcam or usb webcam).
-- LED pen with a push-button switch.
+- LED pen with a push-button switch (Red LED).
 
 # Software Dependencies:
 
