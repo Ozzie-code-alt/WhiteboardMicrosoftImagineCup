@@ -65,12 +65,12 @@ while True:
     _, frame = cap.read()
     warped = get_persp(frame, pts)
 
-    blurred = cv2.GaussianBlur(warped,(9,9),0)
+    blurred = cv2.GaussianBlur(warped,(3,3),1)#9 9 0 Lessen : add blur it for thresholding
     hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
     adjusted = adjust_gamme(hsv, gamma)
     hsv = cv2.cvtColor(adjusted, cv2.COLOR_BGR2HSV)
     mask = cv2.inRange(hsv, lower, upper)
-    ret, otsu = cv2.threshold(mask,0,255,cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    ret, otsu = cv2.threshold(mask,0,255,cv2.THRESH_BINARY + cv2.THRESH_OTSU) # try adaptive ?
 
     cnts = cv2.findContours(otsu.copy(), cv2.RETR_EXTERNAL,
                             cv2.CHAIN_APPROX_SIMPLE)[-2]
@@ -120,8 +120,8 @@ while True:
     if k == 27:
         break
         
-    if cv2.waitKey(1) & 0xFF == ord("q"):
-        break
+    # if cv2.waitKey(1) & 0xFF == ord("q"):
+    #     break
 
 cv2.destroyAllWindows()
 cap.release()
