@@ -5,7 +5,7 @@ from pynput.mouse import Button, Controller
 import time
 
 cap = cv2.VideoCapture(0)
-time.sleep(5.5) # to let camera adjust to lighting conditions
+time.sleep(2.5) # to let camera adjust to lighting conditions
 _, img = cap.read()
 mouse = Controller()  #intialise  mouse api
 gamma = 0.5
