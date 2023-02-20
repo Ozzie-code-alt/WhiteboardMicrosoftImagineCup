@@ -119,7 +119,7 @@ while True:
     #     mouse.press(Button.left)
     #
     # else:
-    #     mouse.release(Button.left)
+    #     mouse.release(Button.left).
 
     check = False
 
