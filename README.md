@@ -1,5 +1,5 @@
 # WhiteboardMicrosoftImagineCup
-MakeSure to install opencv-python, not opencve : opencv-pg : opencvpro etc
+Note : MakeSure to install opencv-python, not opencve : opencv-pg : opencvpro etc
 
 # Hardware dependencies :
 
@@ -12,3 +12,34 @@ MakeSure to install opencv-python, not opencve : opencv-pg : opencvpro etc
 - pyautogui.
 - pynput.
 - OpenCV.
+
+# Instructions for Using Code
+Overview
+This code is designed to accomplish similar functions that of a smart whiteboard. Below are the steps to follow in order to use it properly.
+
+Installation
+To use this code, first make sure you have the following dependencies installed:
+Python 3.8 and above
+Pycharm or VisualStudio Code for IDE
+pip install:
+- Python.
+- pyautogui.
+- pynput.
+- OpenCV.
+
+Once you have these dependencies installed, download the code from [insert location of code here]. Unzip the folder and save it in a location where you can easily access it.
+
+# Usage
+To use the code, follow these steps:
+
+Open the command prompt and navigate to the directory where the code is saved.
+Enter the following command: [python main.py] or if path variable is set in Pycharm open file using pycharm IDE and run main.py
+Follow the prompts to input any necessary information. 
+Once the code has finished running, the output will be saved in [insert location of output here].
+Troubleshooting
+If you encounter any issues while running the code, try the following:
+
+Make sure all dependencies are installed correctly.
+Check that you entered the command to run the code correctly.
+If you continue to experience issues, [insert how to get help here].
+That's it! If you have any questions or feedback, please let us know.
