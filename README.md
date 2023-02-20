@@ -44,5 +44,5 @@ If you continue to experience issues, email justin.santos-18@cpu.edu.ph.
 That's it! If you have any questions or feedback, please let us know.
 
 
-Converting Python File to Installation File
+# Converting Python File to Installation File
 This code has been packaged into an installation file using NSIS. To install the code, run the installer file, which will guide you through the installation proces
