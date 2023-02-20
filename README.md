@@ -35,11 +35,10 @@ To use the code, follow these steps:
 Open the command prompt and navigate to the directory where the code is saved.
 Enter the following command: [python main.py] or if path variable is set in Pycharm open file using pycharm IDE and run main.py
 Follow the prompts to input any necessary information. 
-Once the code has finished running, the output will be saved in [insert location of output here].
 Troubleshooting
 If you encounter any issues while running the code, try the following:
 
 Make sure all dependencies are installed correctly.
 Check that you entered the command to run the code correctly.
-If you continue to experience issues, [insert how to get help here].
+If you continue to experience issues, email justin.santos-18@cpu.edu.ph.
 That's it! If you have any questions or feedback, please let us know.
