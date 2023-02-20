@@ -27,7 +27,7 @@ pip install:
 - pynput.
 - OpenCV.
 
-Once you have these dependencies installed, download the code from [insert location of code here]. Unzip the folder and save it in a location where you can easily access it.
+Once you have these dependencies installed, download the code from this repo. Unzip the folder and save it in a location where you can easily access it.
 
 # Usage
 To use the code, follow these steps:
